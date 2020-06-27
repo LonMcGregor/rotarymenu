@@ -1,0 +1,43 @@
+/* some styles from https://botoxparty.github.io/XP.css/*/
+menu-wedge {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    border: 1px solid #003c74;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(236, 235, 229, 1) 86%,
+        rgba(216, 208, 196, 1) 100%
+    );
+    box-sizing: border-box;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+menu-wedge:focus {
+    box-shadow: inset -1px 1px #cee7ff,
+     inset 1px 2px #98b8ea,
+      inset -2px 2px #bcd4f6,
+       inset 1px -1px #89ade4,
+        inset 2px -2px #89ade4;
+}
+
+menu-wedge:hover {
+    box-shadow: inset -1px 1px #fff0cf,
+     inset 1px 2px #fdd889,
+      inset -2px 2px #fbc761,
+       inset 2px -2px #e5a01a;
+}
+
+rotary-menu {
+    position: fixed;
+}
+
+rotary-menu:after {
+    content: 'x';
+    background: blue;
+    width: 1px;
+    height: 1px;
+}
